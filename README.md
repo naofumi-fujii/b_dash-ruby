@@ -1,6 +1,6 @@
 # BDash
 
-upload file to `b->dash`
+upload file to `b->dash` https://bdash-marketing.com/
 
 ## Installation
 
