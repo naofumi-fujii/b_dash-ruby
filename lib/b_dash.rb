@@ -1,4 +1,5 @@
 require "b_dash/version"
+require "net/sftp"
 
 module BDash
   class Error < StandardError; end
