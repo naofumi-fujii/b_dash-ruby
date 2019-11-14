@@ -16,7 +16,7 @@ module BDash
 
       Net::SFTP.start(hostname, username, option) do |sftp|
         dest = "input/#{File.basename(local_filepath)}"
-        puts "#{local_filepath} -> #{dest}"
+        # puts "#{local_filepath} -> #{dest}"
         sftp.upload!(local_filepath, dest)
       end
     end
