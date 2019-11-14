@@ -22,7 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+  BDash::SFTP.upload!(username: username,
+                      hostname: hostname,
+                      port: port,
+                      local_filepath: filepath)
+```
 
 ## Development
 
