@@ -7,9 +7,9 @@ module BDash
   # Your code goes here...
 
   class SFTP
-    def self.upload!(username:, hostname:, port:, local_filepath:)
+    def self.upload!(username:, hostname:, port:, local_filepath:, ssh_key_path:)
       option = {
-        keys: "~/.ssh/id_rsa",
+        keys: ssh_key_path,
         passphrase: "",
         port: port,
       }
