@@ -7,6 +7,12 @@ module BDash
   # Your code goes here...
 
   class SFTP
+    # username: required for b-dash sftp access.
+    # hostname: required for b-dash sftp access.
+    # port:     required for b-dash sftp access.
+    #
+    # local_filepath: path to csv you want to transfer to b-dash. example: '/tmp/users.csv'
+    # ssh_key_path:   your ssh file path. example: '~/.ssh/id_rsa'
     def self.upload!(username:, hostname:, port:, local_filepath:, ssh_key_path:)
       option = {
         keys: ssh_key_path,
