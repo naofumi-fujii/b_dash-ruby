@@ -9,5 +9,5 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-    # Allow up to 10 open pull requests for pip dependencies
+    # Allow up to 10 open pull requests
     open-pull-requests-limit: 2
